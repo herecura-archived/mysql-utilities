@@ -1,6 +1,6 @@
 pkgbase = mysql-utilities
 	pkgdesc = A collection of command-line utilities that are used for maintaining and administering MySQL servers
-	pkgver = 1.4.4
+	pkgver = 1.5.2
 	pkgrel = 1
 	url = http://dev.mysql.com/downloads/tools/utilities/
 	arch = any
@@ -10,8 +10,8 @@ pkgbase = mysql-utilities
 	depends = python2-jinja
 	depends = python2-mysql-connector
 	options = !emptydirs
-	source = http://cdn.mysql.com/Downloads/MySQLGUITools/mysql-utilities-1.4.4.tar.gz
-	sha256sums = 8dd86095ce2736d3adbccdc1eed3f4a3ad1377bc8af445198db553ab6db9e8f6
+	source = http://cdn.mysql.com/Downloads/MySQLGUITools/mysql-utilities-1.5.2.tar.gz
+	sha256sums = 8fc6033aa9a211b169f39b2f6e0f3fa7d0832c4a12c07f743e57d078fd13ea00
 
 pkgname = mysql-utilities
 
