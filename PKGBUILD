@@ -1,7 +1,7 @@
 # Maintainer: Raphaël Doursenaud <rdoursenaud@free.fr>
 pkgname=mysql-utilities
 pkgver=1.5.4
-pkgrel=1
+pkgrel=2
 pkgdesc="A collection of command-line utilities that are used for maintaining and administering MySQL servers"
 arch=('any')
 url="http://dev.mysql.com/downloads/tools/utilities/"
@@ -9,6 +9,7 @@ license=('GPL')
 depends=('python2' 'python2-sphinx' 'python2-jinja' 'python2-mysql-connector')
 options=(!emptydirs)
 source=(http://cdn.mysql.com/Downloads/MySQLGUITools/$pkgname-$pkgver.tar.gz)
+sha256sums=('4e50251c3f08920112420f209418accf55a376df4dac619f3054a25f97bbbf41')
 
 package() {
 	cd "$srcdir/$pkgname-$pkgver"
@@ -19,4 +20,3 @@ package() {
 	rm -f "$pkgdir/usr/lib/python2.7/site-packages/mysql/__init__.pyc"
 	rm -f "$pkgdir/usr/lib/python2.7/site-packages/mysql/__init__.pyo"
 }
-sha256sums=('4e50251c3f08920112420f209418accf55a376df4dac619f3054a25f97bbbf41')

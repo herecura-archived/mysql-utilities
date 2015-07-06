@@ -1,7 +1,7 @@
 pkgbase = mysql-utilities
 	pkgdesc = A collection of command-line utilities that are used for maintaining and administering MySQL servers
 	pkgver = 1.5.4
-	pkgrel = 1
+	pkgrel = 2
 	url = http://dev.mysql.com/downloads/tools/utilities/
 	arch = any
 	license = GPL
